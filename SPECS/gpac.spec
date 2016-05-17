@@ -17,12 +17,12 @@
 Name:        gpac
 Summary:     MPEG-4 multimedia framework
 Version:     0.5.1
-Release:     14%{?svn:.%{svn}svn}%{?dist}
+Release:     15%{?svn:.%{svn}svn}%{?dist}
 License:     LGPLv2+
 Group:       System Environment/Libraries
 URL:         http://gpac.sourceforge.net/
 #Source0:     http://downloads.sourceforge.net/gpac/gpac-%{version}.tar.gz
-Source0:     gpac-%{svn}.tar.xz
+Source0:     https://dl.deskosproject.org/sources/gpac/gpac-%{svn}.tar.xz
 Source9:     gpac-snapshot.sh
 
 BuildRequires:  ImageMagick
@@ -309,6 +309,9 @@ rm $RPM_BUILD_ROOT%{_includedir}/gpac/config.h
 
 
 %changelog
+* Sun May 15 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.5.1-15.20141206svn
+- Rebuilt for DeskOS
+
 * Sat Dec 06 2014 Nicolas Chauvet <kwizart@gmail.com> - 0.5.1-14.20141206svn
 - Update to svn20141206 - last svn rev 5542
 - Fix invalid SONAME - rfbz#3365

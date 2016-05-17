@@ -1,0 +1,12 @@
+= DeskOS: gpac RPM
+
+This is the _gpac_ RPM package for the *DeskOS* operating system.
+
+The source code for this package is hosted at https://dl.deskosproject.org/sources/gpac/
+
+Upstream comes from the NUX Dextop 7:
+http://li.nux.ro/download/nux/dextop/el7/SRPMS/gpac-0.5.1-14.20141206svn.el7.nux.src.rpm[gpac-0.5.1-14.20141206svn.el7.nux.src.rpm]
+
+NOTE:
+There is a newer version (0.6.1) at the RPMFusion Git repo:
+https://github.com/rpmfusion/gpac[https://github.com/rpmfusion/gpac]
